@@ -9,4 +9,9 @@ table{
   font-family: Verdana;
   font-size: 20px;
   text-decoration:none;
+  border: 1px solid black;
+}
+
+td{
+  border: 1px dashed blue;
 }
