@@ -3,3 +3,9 @@ img{
   height: 100px;
   width: 100px;
 }
+
+table{
+  font-family: Verdana;
+  font-size: 20px;
+  text-decoration:none;
+}
