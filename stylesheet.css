@@ -6,10 +6,19 @@ table{
   font-family: Verdana;
   font-size: 20px;
   text-decoration:none;
-  border: 1px solid black;
+  padding: 10;
+  border-collapse: collapse;
 }
-/*
+
 td{
-  border: 1px dashed blue;
+	text-align: center;
 }
-*/
+
+a{
+	text-decoration: none;
+	font-family: Lucida;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
