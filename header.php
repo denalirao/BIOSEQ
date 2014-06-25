@@ -1,11 +1,8 @@
-<!DOCTYPE html>
 <head> 
   <title>BIOSEQ: Bioinformatics Inquiry through Sequencing</title> 
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
-
 <body> 
-
 <!-- Headings -->
   <div>
     <table height = "2" cellspacing = "10" style = "border-collapse:separate">
@@ -16,7 +13,6 @@
       </tr>
     </table>
   </div>
-
 <!-- Links -->
   <table height = "3" border = solid black border-spacing: 5 20px; style = "background-color:#6EBAF0; border-collapse: collapse" width = "100%">
     <tr height: "50" > 
@@ -26,11 +22,3 @@
       <td> <a href = "file:///Users/denali/Desktop/BIOSEQ/BIOSEQ_website/contact_info.html"> Contact Info </a> </td>
     </tr>
   </table>
-
-  <img src = "http://outreach.tufts.edu/wp-content/uploads/cropped-sequencer.jpg" width = "100" height = "100" title = "Illumina Sequencer"/>
-  <p>
-
-
-  </p>
-
-</body>
