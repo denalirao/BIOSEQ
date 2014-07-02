@@ -1,0 +1,49 @@
+span{
+	color:blue;
+}
+
+table{
+  font-family: Verdana;
+  font-size: 20px;
+  text-decoration:none;
+  padding: 10;
+  
+}
+
+.outreach_background
+{
+    background-image: url('http://outreach.tufts.edu/wp-content/uploads/outreach-top.png');
+    width: 330px;
+    height: 66px;
+    background-position: left;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
+}
+
+
+.BIOSEQ_head{
+	font-size: 20px;
+
+}
+
+.left{
+	text-align: left;
+}
+
+td{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-family: Lucida;
+	color:black;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+p{
+	font-size: 18px;
+}
