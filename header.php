@@ -1,3 +1,4 @@
+/*
 <head> 
   <title>BIOSEQ: Bioinformatics Inquiry through Sequencing</title> 
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
@@ -22,3 +23,4 @@
       <td> <a href = "file:///Users/denali/Desktop/BIOSEQ/BIOSEQ_website/contact_info.html"> Contact Info </a> </td>
     </tr>
   </table>
+*/
