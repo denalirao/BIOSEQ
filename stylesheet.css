@@ -1,5 +1,23 @@
 
-
+#rotating-item-wrapper {
+  float: right;
+  position: relative;
+  right: -20px;
+  top: -800px;
+  width: 470px;
+  height: 270px;
+  border: solid black;
+}
+.rotating-item {
+  float: right;
+  display: none;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  margin: 5px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
 .page {
     margin-top: 0px;
     margin-bottom: 150px;
