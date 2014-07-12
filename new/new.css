@@ -1,0 +1,18 @@
+body {
+    margin: 0
+    color:red;
+}
+.sticky {
+    padding: 1em;
+    background: black;
+    color: white;
+    width: 100%
+}
+.sticky.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.content {
+    padding: 1em
+}
