@@ -1,0 +1,85 @@
+/* RESPONSIVE GRID SYSTEM =============================================================================  */
+
+
+/* BASIC PAGE SETUP ============================================================================= */
+/*
+body { 
+margin : 0 auto;
+padding : 0;
+font : 100%/1.4 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif; 	
+color : #000; 
+text-align: center;
+background: #fff url(/images/bodyback.png) left top;
+}
+/*
+
+/*  MAIN LAYOUT	============================================================================= */
+
+#wrapper {
+	width: 100%;
+	position: relative;
+	text-align: left;
+}
+	#headcontainer {
+		width: 100%;
+		background: url(/images/headerback.png) no-repeat center top;
+	}
+
+		header {
+			clear: both;
+			width: 80%; 
+			font-size: 0.8125em; 
+			max-width: 92.3em; 
+			margin: 0 auto;
+			/*padding: 130px 0px 10px 0px; */
+			position: relative;
+			color: #000;
+			text-align: center;
+		}
+
+
+	#maincontentcontainer {
+		width: 100%;
+	}
+			#maincontent{
+				clear: both;
+				width: 80%; /* 1000px / 1250px */
+				font-size: 0.8125em; /* 13 / 16 */
+				max-width: 92.3em; /* 1200px / 13 */
+				margin: 0 auto;
+				padding: 1em 0px;
+				line-height: 1.5em;
+				position: relative;
+			}
+			.maincontent{
+				clear: both;
+				width: 80%; /* 1000px / 1250px */
+				font-size: 0.8125em; /* 13 / 16 */
+				max-width: 92.3em; /* 1200px / 13 */
+				margin: 0 auto;
+				padding: 1em 0px;
+				line-height: 1.5em;
+				position: relative;
+			}
+	
+/*  SECTIONS  ============================================================================= */
+/*
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+*/
+	
+/*  COLUMNS  ============================================================================= */
+
+/*
+.twocolumns{
+	-moz-column-count: 2;
+	-moz-column-gap: 2em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 2em;
+	column-count: 2;
+	column-gap: 2em;
+  }
+  */
