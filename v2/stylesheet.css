@@ -47,7 +47,7 @@ table{
 }
 
 .links{
-  height:70%;
+  height:75%;
   width:10%;
   position: fixed;
   border:3px solid black ;
@@ -55,6 +55,8 @@ table{
   background-color:#6EBAF0; 
   border-collapse: collapse;
   font-size: 20px;
+  float: left;
+  text-align: center;
   /*position: fixed;
   top: 0; */
 }
