@@ -9,7 +9,7 @@ body{
   background: -o-linear-gradient(white, #0099CC); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(white, #0099CC); /* For Firefox 3.6 to 15 */
   background: linear-gradient(white, #0099CC); /* Standard syntax */  
-  font-family: 'Josefin Slab', serif;
+  /*font-family: 'Josefin Slab', serif;*/
 }
 
 #gridWrapper {
@@ -44,7 +44,7 @@ body{
   border-spacing: 3 15px ;
   background-color: #66CCFF;
   border-collapse: collapse;
-  font-family: 'Josefin';
+  /*font-family: 'Josefin';*/
   color: #003399;
   font-size: 16px;
 

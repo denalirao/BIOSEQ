@@ -2,8 +2,8 @@
 div[class*="span_"] {
 	box-sizing:border-box;
     border:3px solid #003399;
-   /* background-color: #CCFFCC;*/
-    background-color: #DCDCDC;
+/*    background-color: #CCFFCC; */
+    background-color: #F0F0F0;
     font-size: 18px;
     padding: 0px 10px 2px 10px;
     color: #003399;
