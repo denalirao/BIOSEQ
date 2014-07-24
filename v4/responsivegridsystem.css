@@ -63,17 +63,17 @@ background: #fff url(/images/bodyback.png) left top;
 			}
 	
 /*  SECTIONS  ============================================================================= */
-/*
+
 .section {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
 }
-*/
+
 	
 /*  COLUMNS  ============================================================================= */
 
-/*
+
 .twocolumns{
 	-moz-column-count: 2;
 	-moz-column-gap: 2em;
@@ -82,4 +82,4 @@ background: #fff url(/images/bodyback.png) left top;
 	column-count: 2;
 	column-gap: 2em;
   }
-  */
+
