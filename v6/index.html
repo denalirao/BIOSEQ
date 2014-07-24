@@ -19,8 +19,7 @@
     <link href="./navbar-fixed-top.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="./bootstrap/js/bootstrap.js"> </script>
-    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -29,8 +28,7 @@
   </head>
 
   <body>
-
-    <!-- Fixed navbar -->
+    <!-- Fixed navbar - first one doesn't appear-->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -44,20 +42,23 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <!--<li class="active"><a href="#">Home</a></li>-->
+            <li><a href="#">Home</a></li>
             <li><a href="#about">Summer Course</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course Materials <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li class="dropdown-header">By Topic</li>
+                <li><a href="#">topic1</a></li>
+                <li><a href="#">topic2</a></li>
+                <li><a href="#">topic3</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li class="dropdown-header">By Project</li>
+                <li><a href="#">Genetics of Race</a></li>
+                <li><a href="#">Other project</a></li>
               </ul>
             </li>
+            <li><a href="#wiki"> Wiki </a></li>
             <li><a href="#contact">Contact Info</a></li>
           </ul>
           <!--
@@ -71,26 +72,85 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="jumbotron" style="top-padding:0">
+          <center> <h2 style="color: #0033CC">BioSeq: Bioinformatics Inquiry through Sequencing</h2> </center>
+    </div>
 
+    <div class="container">
       <!-- Main component for a primary marketing message or call to action -->
-      <!--
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+<!--      <div class="jumbotron"> -->
+        <div class="container"> <!-- top text -->
+          <p> <h3> Program Details </h3>
+            The primary objective of the BioSeq project is to provide students with a genuine research experience. Specific grant activities include 
+            <li> establishing a core sequencing facility for educational purposes at Tufts’ Medford campus,</li> 
+            <li>creating an entry level research-based bioinformatics course for high school students,</li>
+            <li> developing curricular units to describe bioinformatics concepts, </li> 
+            <li>and continuing Professor Walt’s long time focus on outreach to local K-12 students and teachers in the area of science education.</li>
+            <br>
+            Location: Pearson-Michael Chemistry Complex, Medford and participating local schools in Somerville, Medford, Malden, and Chinatown.
+
+            Anticipated outcome: The anticipated outcome of the project is that individuals who participate at all levels will have a greater understanding of and interest in bioinformatics and next generation sequencing.  Undergraduates will gain experience in the lab and high school students will get a taste of genuine contemporary research.</p>
+          <!--<p>
+            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+          </p>-->
+        </div>
+<!--      </div>-->
+    <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <p><h3> Interested High Schools: </h3>
+              High schools that wish to participate should have basic laboratory facilities such as blacktop benches, working sinks, gas lines and a fume hood. In the process of scheduling your project we will discuss basic equipment.  In most cases, we can provide necessary equipment.
+              <br>
+              Teachers who participate in the project should be prepared to do some extra reading and some team teaching on the subjects we cover. Our aim is to have teachers comfortable enough with the project to be able to do it themselves, given the materials.
+              <h3> Interested Undergraduates: </h3>
+              Tufts students who are interested in participating should contact Project Administrator Karen O’Hagan. Students should be prepared to submit an unofficial transcript, a resume, and the name of a science professor who can be contacted as a reference.
+              <br>
+              Tufts students who participate in undergraduate research will be mentored by a graduate student and Postdocs as well as an undergraduate who has some experience in the laboratory. Faculty supervision will come in the form of lab meetings.
+              Paid summer research fellowships are available; research is performed during the semester for credit.</p>
+          </div>
+          <div class="col-md-5">
+             <div class="jumbotron">
+              <div id="this-carousel-id" class="carousel slide"> <!-- class of slide for animation -->
+                <div class="carousel-inner">
+                  <div class="item active"><!-- class of active since it's the first item -->
+                    <img src="https://github.com/denalz/BIOSEQ/blob/gh-pages/v1/pictures/IMG_3755.JPG?raw=true" class = "img-responsive img-rounded" alt="" />
+                    <div class="carousel-caption">
+                      <!--<p>Caption text here</p>-->
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="https://github.com/denalz/BIOSEQ/blob/gh-pages/v1/pictures/IMG_3777.JPG?raw=true" class="img-responsive img-rounded" alt="" />
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+                </div><!-- /.carousel-inner -->
+                <!--  Next and Previous controls below
+                      href values must reference the id for this carousel -->
+                  <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+                  <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+              </div><!-- /.carousel -->
+              <script>
+                $(document).ready(function(){
+                $('.carousel').carousel({interval:2000});
+                });
+              </script>
+            <!--<p><a class="btn btn-default" href="#" role="button">gallery &raquo;</a></p>-->
+        </div>
+      </div> <!--end jumbotron-->
       </div>
-    -->
     </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./bootstrap/js/bootstrap.js"> </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <!--for image carousel -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+
   </body>
 </html>

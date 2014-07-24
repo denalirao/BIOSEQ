@@ -3146,6 +3146,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  color: #003399;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -3463,8 +3464,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #0033CC;
+  border-color: #66CCFF;
 }
 .navbar-default .navbar-brand {
   color: #777777;
@@ -3666,6 +3667,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: inherit;
   background-color: #eeeeee;
 }
+.jumbotron .small{
+  padding: 20px;
+  margin-bottom: 20px;
+  color: inherit;
+  background-color: #eeeeee;
+}
+
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
