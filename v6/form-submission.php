@@ -10,7 +10,7 @@
       $email_body = "You have received a new message from the user $name.\n".
                             "Here is the message:\n $phone".
  
-	  $to = "denzig55@gmail.com";
+	  $to = "xyz@gmail.com";
  
 	  $headers = "From: $email_from \r\n";
   
